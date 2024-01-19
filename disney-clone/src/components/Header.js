@@ -5,6 +5,7 @@ const Header = (props) =>{
             <Logo>
                 <img src="/images/logo.svg" alt="Disney+"/>
                 </Logo>
+                <NavMenu>menu</NavMenu>
         </Nav>
     );
 }
@@ -34,4 +35,12 @@ img{
     width:100%;
 }
 `;
+const NavMenu = styled.div`
+align-items:center;
+display:flex;
+flex-flow:row nowrap;
+
+`;
+
+
 export default Header;
