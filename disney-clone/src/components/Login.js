@@ -97,11 +97,4 @@ display:inline-block;
 vertical-align:bottom;
 width:100%;
 `;
-
-
-
-
-
-
-
 export default Login;
